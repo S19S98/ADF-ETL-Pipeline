@@ -59,7 +59,7 @@ Design of an ETL pipeline in Azure Data Factory, to copy data from Azure SQL Ser
         - Source will be SQL Server dataset and Target will be the ADLS Blob dataset
         - Withing the settings of Copy Data, select enable staging mention the linked service and the dataset
         - Finally Debug the pipeline
-
+- As a verification step compared the results of the .csv files generated in ADLS Blob Storage account to the result of the queries run on SSMS, by connecting the SSMS with the Azure SQL Server.
 
 Note:
 All done on single partition as small dataset
